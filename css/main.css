@@ -515,9 +515,9 @@ p {
   top: 20%;
 }
 /* line 38, ../scss/modules/_components.scss */
-.banner-item img {
+/*.banner-item img {
   box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.2), 0px 0px 45px rgba(0, 0, 0, 0.2);
-}
+}*/
 
 /* line 45, ../scss/modules/_components.scss */
 .carousel-control {
@@ -683,7 +683,6 @@ table {
   font-family: 'Roboto Mono';
   font-size: 12px;
   color: #444;
-  border-top: 1px solid #d5d5d5;
   width: 100%;
 }
 /* line 8, ../scss/modules/_tables.scss */
@@ -862,4 +861,22 @@ table tr td:first-of-type {
   .about-heading {
     top: 48%;
   }
+}
+
+.team-member-desc {
+    margin: 0px 15px;
+    text-align: justify;
+}
+
+.footer-link a:hover {
+  color: #f2013f;
+  text-decoration: none;
+}
+
+.footer-text a {
+  color: #f2013f;
+}
+
+.footer-text a:hover {
+  text-decoration: none;
 }
